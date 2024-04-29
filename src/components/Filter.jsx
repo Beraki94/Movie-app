@@ -23,6 +23,7 @@ const Filter = () => {
         .map(movie => {
           return(
             <MovieCard key={movie.id}
+              id={movie.id}
               Url= {movie.posterURL}
               title= {movie.title}
               desc = {movie.description}
